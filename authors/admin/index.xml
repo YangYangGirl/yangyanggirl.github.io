@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yang Yang</title>
+    <link>https://yangyanggirl.github.io/authors/admin/</link>
+    <description>Recent content on Yang Yang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2020 Yang Yang</copyright>
+    
+	<atom:link href="https://yangyanggirl.github.io/authors/admin/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>
