@@ -27,10 +27,10 @@
   
     
   
-  <meta name="description" content="PhD Candidate">
+  <meta name="description" content="Analyzing model performance in various unseen environments is a critical research problem in the machine learning community. To study this problem, it is important to construct a testbed with out-of-distribution test sets that have broad coverage of environmental discrepancies. However, existing testbeds typically either have a small number of domains or are synthesized by image corruptions, hindering algorithm design that demonstrates real-world effectiveness. In this paper, we introduce CIFAR-10-Warehouse, consisting of 180 datasets collected by prompting image search engines and diffusion models in various ways. Generally sized between 300 and 8,000 images, the datasets contain natural images, cartoons, certain colors, or objects that do not naturally appear. With CIFAR-10-W, we aim to enhance the evaluation and deepen the understanding of two generalization tasks: domain generalization and model accuracy prediction in various out-of-distribution environments. We conduct extensive benchmarking and comparison experiments and show that CIFAR-10-W offers new and interesting insights inherent to these tasks. We also discuss other fields that would benefit from CIFAR-10-W. Data and code are available at https://sites.google.com/view/cifar-10-warehouse/.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://yangyanggirl.github.io/publication_types/0/">
+  <link rel="alternate" hreflang="en-us" href="https://yangyanggirl.github.io/publication/cifar10w/">
 
   
 
@@ -90,15 +90,12 @@
   
 
   
-  <link rel="alternate" href="/publication_types/0/index.xml" type="application/rss+xml" title="Yang Yang">
-  <link rel="feed" href="/publication_types/0/index.xml" type="application/rss+xml" title="Yang Yang">
-  
 
   <link rel="manifest" href="/site.webmanifest">
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://yangyanggirl.github.io/publication_types/0/">
+  <link rel="canonical" href="https://yangyanggirl.github.io/publication/cifar10w/">
 
   
   
@@ -110,19 +107,21 @@
   <meta property="twitter:card" content="summary">
   
   <meta property="og:site_name" content="Yang Yang">
-  <meta property="og:url" content="https://yangyanggirl.github.io/publication_types/0/">
-  <meta property="og:title" content="0 | Yang Yang">
-  <meta property="og:description" content="PhD Candidate"><meta property="og:image" content="https://yangyanggirl.github.io/img/icon-192.png">
+  <meta property="og:url" content="https://yangyanggirl.github.io/publication/cifar10w/">
+  <meta property="og:title" content="CIFAR-10-Warehouse: Broad and More Realistic Testbeds in Model Generalization Analysis | Yang Yang">
+  <meta property="og:description" content="Analyzing model performance in various unseen environments is a critical research problem in the machine learning community. To study this problem, it is important to construct a testbed with out-of-distribution test sets that have broad coverage of environmental discrepancies. However, existing testbeds typically either have a small number of domains or are synthesized by image corruptions, hindering algorithm design that demonstrates real-world effectiveness. In this paper, we introduce CIFAR-10-Warehouse, consisting of 180 datasets collected by prompting image search engines and diffusion models in various ways. Generally sized between 300 and 8,000 images, the datasets contain natural images, cartoons, certain colors, or objects that do not naturally appear. With CIFAR-10-W, we aim to enhance the evaluation and deepen the understanding of two generalization tasks: domain generalization and model accuracy prediction in various out-of-distribution environments. We conduct extensive benchmarking and comparison experiments and show that CIFAR-10-W offers new and interesting insights inherent to these tasks. We also discuss other fields that would benefit from CIFAR-10-W. Data and code are available at https://sites.google.com/view/cifar-10-warehouse/."><meta property="og:image" content="https://yangyanggirl.github.io/img/icon-192.png">
   <meta property="og:locale" content="en-us">
   
-  <meta property="og:updated_time" content="2023-10-09T10:30:44&#43;08:00">
+  <meta property="article:published_time" content="2023-10-09T10:30:44&#43;08:00">
+  
+  <meta property="article:modified_time" content="2023-10-09T10:30:44&#43;08:00">
   
 
   
 
   
 
-  <title>0 | Yang Yang</title>
+  <title>CIFAR-10-Warehouse: Broad and More Realistic Testbeds in Model Generalization Analysis | Yang Yang</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
@@ -341,8 +340,9 @@
   </div>
 </nav>
 
+<div class="pub" itemscope itemtype="http://schema.org/CreativeWork">
 
-
+  
 
 
 
@@ -358,56 +358,222 @@
   
 
   
+  
+  
+<div class="article-container pt-3">
+  <h1 itemprop="name">CIFAR-10-Warehouse: Broad and More Realistic Testbeds in Model Generalization Analysis</h1>
+
+  
+
+  
+    
+
+
+
+<meta content="2023-10-09 10:30:44 &#43;0800 &#43;0800" itemprop="datePublished">
+<meta content="2023-10-09 10:30:44 &#43;0800 &#43;0800" itemprop="dateModified">
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+
+
+  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/xiaoxiao-sun/">Xiaoxiao Sun</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/xingjian-leng/">Xingjian Leng</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/zijian-wang/">Zijian Wang</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/yang-yang/">Yang Yang</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/zi-huang/">Zi Huang</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/liang-zheng/">Liang Zheng</a></span>
+
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    <time>October 2023</time>
+  </span>
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+    
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=&amp;url="
+         target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u="
+         target="_blank" rel="noopener">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=&amp;title="
+         target="_blank" rel="noopener">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=&amp;title="
+         target="_blank" rel="noopener">
+        <i class="fab fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=&amp;body=">
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1" href="https://arxiv.org/pdf/2310.04414.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    
+    <h3>Abstract</h3>
+    <p class="pub-abstract" itemprop="text">Analyzing model performance in various unseen environments is a critical research problem in the machine learning community. To study this problem, it is important to construct a testbed with out-of-distribution test sets that have broad coverage of environmental discrepancies. However, existing testbeds typically either have a small number of domains or are synthesized by image corruptions, hindering algorithm design that demonstrates real-world effectiveness. In this paper, we introduce CIFAR-10-Warehouse, consisting of 180 datasets collected by prompting image search engines and diffusion models in various ways. Generally sized between 300 and 8,000 images, the datasets contain natural images, cartoons, certain colors, or objects that do not naturally appear. With CIFAR-10-W, we aim to enhance the evaluation and deepen the understanding of two generalization tasks: domain generalization and model accuracy prediction in various out-of-distribution environments. We conduct extensive benchmarking and comparison experiments and show that CIFAR-10-W offers new and interesting insights inherent to these tasks. We also discuss other fields that would benefit from CIFAR-10-W. Data and code are available at <a href="https://sites.google.com/view/cifar-10-warehouse/">https://sites.google.com/view/cifar-10-warehouse/</a>.</p>
+    
+
+   
+
+    
+
+    <div class="space-below"></div>
+
+    <div class="article-style"></div>
+
+    
+
+
+    
+
+
+
+
+
+
+
+
   
   
     
   
-<div class="universal-wrapper pt-3">
-  <h1 itemprop="name">0</h1>
-
   
 
+
+
+
+
   
+  <div class="media author-card" itemscope itemtype="http://schema.org/Person">
+    
+
+    <div class="media-body">
+      <h5 class="card-title" itemprop="name"><a href="/authors/xiaoxiao-sun/"></a></h5>
+      
+      
+      <ul class="network-icon" aria-hidden="true">
+        
+      </ul>
+    </div>
+  </div>
+
+
+
+
+  </div>
 </div>
 
 
 
-<div class="universal-wrapper">
-  
-
-  
-  
-  <div>
-    <h2><a href="/publication/cifar10w/">CIFAR-10-Warehouse: Broad and More Realistic Testbeds in Model Generalization Analysis</a></h2>
-    <div class="article-style">
-      
-      Analyzing model performance in various unseen environments is a critical research problem in the machine learning community. To study this problem, it is important to construct a testbed with out-of-distribution test sets that have broad coverage of …
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="/publication/interngpt/">Internchat: Solving vision-centric tasks by interacting with chatbots beyond language</a></h2>
-    <div class="article-style">
-      
-      We present an interactive visual framework named InternGPT, or iGPT for short. The framework integrates chatbots that have planning and reasoning capabilities, such as ChatGPT, with non-verbal instructions like pointing movements that enable users to …
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="/publication/fg2021/">Does Keypoint Estimation Beneﬁt Object Detection? An Empirical Study of One-stage and Two-stage Detectors</a></h2>
-    <div class="article-style">
-      
-      Abstract — This paper studies the benefit of keypoint estimation on object detection. In particular, we focus on the paradigmatic one-stage and two-stage methods, two main categories in the object detection community. We note that while there has …
-      
-    </div>
-  </div>
-  
-
-  
-
-</div>
 <div class="container">
   <footer class="site-footer">
   

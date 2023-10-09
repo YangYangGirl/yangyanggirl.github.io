@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Liang Zheng on Yang Yang</title>
-    <link>https://yangyanggirl.github.io/authors/liang-zheng/</link>
-    <description>Recent content in Liang Zheng on Yang Yang</description>
+    <title>Xiaoxiao Sun on Yang Yang</title>
+    <link>https://yangyanggirl.github.io/authors/xiaoxiao-sun/</link>
+    <description>Recent content in Xiaoxiao Sun on Yang Yang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2020 Yang Yang</copyright>
     <lastBuildDate>Mon, 09 Oct 2023 10:30:44 +0800</lastBuildDate>
     
-	<atom:link href="https://yangyanggirl.github.io/authors/liang-zheng/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://yangyanggirl.github.io/authors/xiaoxiao-sun/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -18,15 +18,6 @@
       <pubDate>Mon, 09 Oct 2023 10:30:44 +0800</pubDate>
       
       <guid>https://yangyanggirl.github.io/publication/cifar10w/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Does Keypoint Estimation Beneﬁt Object Detection? An Empirical Study of One-stage and Two-stage Detectors</title>
-      <link>https://yangyanggirl.github.io/publication/fg2021/</link>
-      <pubDate>Wed, 02 Mar 2022 19:30:44 +0800</pubDate>
-      
-      <guid>https://yangyanggirl.github.io/publication/fg2021/</guid>
       <description></description>
     </item>
     

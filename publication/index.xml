@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2020 Yang Yang</copyright>
-    <lastBuildDate>Sun, 08 Oct 2023 19:30:44 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 09 Oct 2023 10:30:44 +0800</lastBuildDate>
     
 	<atom:link href="https://yangyanggirl.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>CIFAR-10-Warehouse: Broad and More Realistic Testbeds in Model Generalization Analysis</title>
+      <link>https://yangyanggirl.github.io/publication/cifar10w/</link>
+      <pubDate>Mon, 09 Oct 2023 10:30:44 +0800</pubDate>
+      
+      <guid>https://yangyanggirl.github.io/publication/cifar10w/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Internchat: Solving vision-centric tasks by interacting with chatbots beyond language</title>
