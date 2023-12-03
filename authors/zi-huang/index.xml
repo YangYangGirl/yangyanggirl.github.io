@@ -2,22 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Zi Huang on Yang Yang</title>
-    <link>https://yangyanggirl.github.io/authors/zi-huang/</link>
+    <link>https://andrewzhou924.github.io/authors/zi-huang/</link>
     <description>Recent content in Zi Huang on Yang Yang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2020 Yang Yang</copyright>
-    <lastBuildDate>Mon, 09 Oct 2023 10:30:44 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 02 Dec 2023 10:30:44 +0800</lastBuildDate>
     
-	<atom:link href="https://yangyanggirl.github.io/authors/zi-huang/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://andrewzhou924.github.io/authors/zi-huang/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Bounding Box Stability against Feature Dropout Reflects Detector Generalization across Environments</title>
+      <link>https://andrewzhou924.github.io/publication/bos/</link>
+      <pubDate>Sat, 02 Dec 2023 10:30:44 +0800</pubDate>
+      
+      <guid>https://andrewzhou924.github.io/publication/bos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>CIFAR-10-Warehouse: Broad and More Realistic Testbeds in Model Generalization Analysis</title>
-      <link>https://yangyanggirl.github.io/publication/cifar10w/</link>
+      <link>https://andrewzhou924.github.io/publication/cifar10w/</link>
       <pubDate>Mon, 09 Oct 2023 10:30:44 +0800</pubDate>
       
-      <guid>https://yangyanggirl.github.io/publication/cifar10w/</guid>
+      <guid>https://andrewzhou924.github.io/publication/cifar10w/</guid>
       <description></description>
     </item>
     

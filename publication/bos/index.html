@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
@@ -29,10 +27,10 @@
   
     
   
-  <meta name="description" content="PhD Candidate">
+  <meta name="description" content="Bounding boxes uniquely characterize object detection, where a good detector gives accurate bounding boxes of categories of interest. However, in the real-world where test ground truths are not provided, it is non-trivial to find out whether bounding boxes are accurate, thus preventing us from assessing the detector generalization ability. In this work, we find under feature map dropout, good detectors tend to output bounding boxes whose locations do not change much, while bounding boxes of poor detectors will undergo noticeable position changes. We compute the box stability score (BS score) to reflect this stability. Specifically, given an image, we compute a normal set of bounding boxes and a second set after feature map dropout. To obtain BS score, we use bipartite matching to find the corresponding boxes between the two sets and compute the average Intersection over Union (IoU) across the entire test set. We contribute to finding that BS score has a strong, positive correlation with detection accuracy measured by mean average precision (mAP) under various test environments. This relationship allows us to predict the accuracy of detectors on various real-world test sets without accessing test ground truths, verified on canonical detection tasks such as vehicle detection and pedestrian detection.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://andrewzhou924.github.io/authors/kunchang-li/">
+  <link rel="alternate" hreflang="en-us" href="https://andrewzhou924.github.io/publication/bos/">
 
   
 
@@ -92,15 +90,12 @@
   
 
   
-  <link rel="alternate" href="/authors/kunchang-li/index.xml" type="application/rss+xml" title="Yang Yang">
-  <link rel="feed" href="/authors/kunchang-li/index.xml" type="application/rss+xml" title="Yang Yang">
-  
 
   <link rel="manifest" href="/site.webmanifest">
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://andrewzhou924.github.io/authors/kunchang-li/">
+  <link rel="canonical" href="https://andrewzhou924.github.io/publication/bos/">
 
   
   
@@ -112,19 +107,21 @@
   <meta property="twitter:card" content="summary">
   
   <meta property="og:site_name" content="Yang Yang">
-  <meta property="og:url" content="https://andrewzhou924.github.io/authors/kunchang-li/">
-  <meta property="og:title" content="Kunchang Li | Yang Yang">
-  <meta property="og:description" content="PhD Candidate"><meta property="og:image" content="https://andrewzhou924.github.io/img/icon-192.png">
+  <meta property="og:url" content="https://andrewzhou924.github.io/publication/bos/">
+  <meta property="og:title" content="Bounding Box Stability against Feature Dropout Reflects Detector Generalization across Environments | Yang Yang">
+  <meta property="og:description" content="Bounding boxes uniquely characterize object detection, where a good detector gives accurate bounding boxes of categories of interest. However, in the real-world where test ground truths are not provided, it is non-trivial to find out whether bounding boxes are accurate, thus preventing us from assessing the detector generalization ability. In this work, we find under feature map dropout, good detectors tend to output bounding boxes whose locations do not change much, while bounding boxes of poor detectors will undergo noticeable position changes. We compute the box stability score (BS score) to reflect this stability. Specifically, given an image, we compute a normal set of bounding boxes and a second set after feature map dropout. To obtain BS score, we use bipartite matching to find the corresponding boxes between the two sets and compute the average Intersection over Union (IoU) across the entire test set. We contribute to finding that BS score has a strong, positive correlation with detection accuracy measured by mean average precision (mAP) under various test environments. This relationship allows us to predict the accuracy of detectors on various real-world test sets without accessing test ground truths, verified on canonical detection tasks such as vehicle detection and pedestrian detection."><meta property="og:image" content="https://andrewzhou924.github.io/img/icon-192.png">
   <meta property="og:locale" content="en-us">
   
-  <meta property="og:updated_time" content="2023-10-08T19:30:44&#43;08:00">
+  <meta property="article:published_time" content="2023-12-02T10:30:44&#43;08:00">
+  
+  <meta property="article:modified_time" content="2023-12-02T10:30:44&#43;08:00">
   
 
   
 
   
 
-  <title>Kunchang Li | Yang Yang</title>
+  <title>Bounding Box Stability against Feature Dropout Reflects Detector Generalization across Environments | Yang Yang</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
@@ -343,36 +340,239 @@
   </div>
 </nav>
 
+<div class="pub" itemscope itemtype="http://schema.org/CreativeWork">
+
+  
 
 
 
-<div class="universal-wrapper pt-3">
-  <h1 itemprop="name">Kunchang Li</h1>
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1 itemprop="name">Bounding Box Stability against Feature Dropout Reflects Detector Generalization across Environments</h1>
+
+  
+
+  
+    
+
+
+
+<meta content="2023-12-02 10:30:44 &#43;0800 &#43;0800" itemprop="datePublished">
+<meta content="2023-12-02 10:30:44 &#43;0800 &#43;0800" itemprop="dateModified">
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+
+
+  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/xiaoxiao-sun/">Xiaoxiao Sun</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/xingjian-leng/">Xingjian Leng</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/zijian-wang/">Zijian Wang</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/yang-yang/">Yang Yang</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/zi-huang/">Zi Huang</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/liang-zheng/">Liang Zheng</a></span>
+
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    <time>December 2023</time>
+  </span>
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+    
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=&amp;url="
+         target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u="
+         target="_blank" rel="noopener">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=&amp;title="
+         target="_blank" rel="noopener">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=&amp;title="
+         target="_blank" rel="noopener">
+        <i class="fab fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=&amp;body=">
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
 </div>
 
 
-<section id="profile-page" class="pt-5">
-  <div class="container">
-    
-    
+  
+
+</div>
 
     
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
     
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1" href="https://openreview.net/forum?id=lmM4Ecm4HJ" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
     
-    <div class="article-widget">
-      <div class="hr-light"></div>
-      <h3>Latest</h3>
-      <ul>
-        
-        <li>
-          <a href="/publication/interngpt/">Internchat: Solving vision-centric tasks by interacting with chatbots beyond language</a>
-        </li>
+    <h3>Abstract</h3>
+    <p class="pub-abstract" itemprop="text">Bounding boxes uniquely characterize object detection, where a good detector gives accurate bounding boxes of categories of interest. However, in the real-world where test ground truths are not provided, it is non-trivial to find out whether bounding boxes are accurate, thus preventing us from assessing the detector generalization ability. In this work, we find under feature map dropout, good detectors tend to output bounding boxes whose locations do not change much, while bounding boxes of poor detectors will undergo noticeable position changes. We compute the box stability score (BS score) to reflect this stability. Specifically, given an image, we compute a normal set of bounding boxes and a second set after feature map dropout. To obtain BS score, we use bipartite matching to find the corresponding boxes between the two sets and compute the average Intersection over Union (IoU) across the entire test set. We contribute to finding that BS score has a strong, positive correlation with detection accuracy measured by mean average precision (mAP) under various test environments. This relationship allows us to predict the accuracy of detectors on various real-world test sets without accessing test ground truths, verified on canonical detection tasks such as vehicle detection and pedestrian detection.</p>
+    
+
+   
+
+    
+
+    <div class="space-below"></div>
+
+    <div class="article-style"></div>
+
+    
+
+
+    
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+  
+
+
+
+
+
+  
+  <div class="media author-card" itemscope itemtype="http://schema.org/Person">
+    
+
+    <div class="media-body">
+      <h5 class="card-title" itemprop="name"><a href="/authors/xiaoxiao-sun/"></a></h5>
+      
+      
+      <ul class="network-icon" aria-hidden="true">
         
       </ul>
     </div>
   </div>
-  
-</section>
+
+
+
+
+  </div>
+</div>
+
+
 
 <div class="container">
   <footer class="site-footer">
