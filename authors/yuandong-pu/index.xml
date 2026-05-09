@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yuandong Pu on Yang Yang</title>
+    <link>https://yangyanggirl.github.io/authors/yuandong-pu/</link>
+    <description>Recent content in Yuandong Pu on Yang Yang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2020 Yang Yang</copyright>
+    <lastBuildDate>Sat, 09 May 2026 20:31:52 +0800</lastBuildDate>
+    
+	<atom:link href="https://yangyanggirl.github.io/authors/yuandong-pu/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>LinearSR: Unlocking Linear Attention for Stable and Efficient Image Super-Resolution [iclr2026]</title>
+      <link>https://yangyanggirl.github.io/publication/linearsr/</link>
+      <pubDate>Sat, 09 May 2026 20:31:52 +0800</pubDate>
+      
+      <guid>https://yangyanggirl.github.io/publication/linearsr/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

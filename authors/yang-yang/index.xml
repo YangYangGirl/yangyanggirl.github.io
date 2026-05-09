@@ -7,10 +7,46 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2020 Yang Yang</copyright>
-    <lastBuildDate>Sat, 02 Dec 2023 10:30:44 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 09 May 2026 20:40:52 +0800</lastBuildDate>
     
 	<atom:link href="https://yangyanggirl.github.io/authors/yang-yang/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>ParVL: Parallel Scaling and Expandable Compute Allocation for Multimodal LLMs [preprint]</title>
+      <link>https://yangyanggirl.github.io/publication/parvl/</link>
+      <pubDate>Sat, 09 May 2026 20:40:52 +0800</pubDate>
+      
+      <guid>https://yangyanggirl.github.io/publication/parvl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Video-Ruler: Video Assistant Referee System For Automated Basketball Decision Making from a Long-Form Rulebook [preprint]</title>
+      <link>https://yangyanggirl.github.io/publication/videoruler/</link>
+      <pubDate>Sat, 09 May 2026 20:40:52 +0800</pubDate>
+      
+      <guid>https://yangyanggirl.github.io/publication/videoruler/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LinearSR: Unlocking Linear Attention for Stable and Efficient Image Super-Resolution [iclr2026]</title>
+      <link>https://yangyanggirl.github.io/publication/linearsr/</link>
+      <pubDate>Sat, 09 May 2026 20:31:52 +0800</pubDate>
+      
+      <guid>https://yangyanggirl.github.io/publication/linearsr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Beyond Accuracy: An Empirical Study of Perception Stability in Multimodal Large Language Models [cvpr2026 findings]</title>
+      <link>https://yangyanggirl.github.io/publication/abilitylens/</link>
+      <pubDate>Thu, 07 May 2026 20:43:52 +0800</pubDate>
+      
+      <guid>https://yangyanggirl.github.io/publication/abilitylens/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Bounding Box Stability against Feature Dropout Reflects Detector Generalization across Environments [iclr2024 spotlight]</title>
